@@ -1,6 +1,6 @@
 import '../styles/index.scss';
 
-console.log('jjjjj');
+// just for testing after downloading you can delete it
 import mo1 from '../images/m1.jpg';
 
 var pix1 = document.getElementById('mo1');

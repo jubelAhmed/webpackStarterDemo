@@ -9,7 +9,7 @@ module.exports = {
     entry : './src/js/index.js',
 
     output : {
-        filename: 'bundle.js',
+        filename: 'bundle.[hash].js',
         path: path.resolve(__dirname,'dist'),
         publicPath: "/dist" 
     },
@@ -66,6 +66,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: 'index.html'
-        })
+        }),
+        new CleanWebpackPlugin('dist')
     ]
 }
