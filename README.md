@@ -1,4 +1,4 @@
-//webpackStarterDemo  // 
+#webpackStarterDemo  // 
 //firstly download this demo 
 # then write command : npm install
 # for run this project write command: npm start
@@ -7,7 +7,7 @@
 #     in js file : import img1 from '../images/image-name';
 #      var bgImage = document.getElementbyId("bg1");
 #      bgImage.src = img1  
-// }
+# }
 
 # {
 # bootstrap importing 
@@ -23,7 +23,7 @@
 # }
 
 #in scss file image import system
-// your souce folder image link up is enough if you have image conffiguration in webpack config file
+// your souce folder image link up is enough if you have image configuration in webpack config file
 //as example : body{
                background: url("../images/imageName.jpg");
                }
