@@ -14,8 +14,8 @@
  
 # 1.  npm install bootstarp jquery popper.js
  
-# in js file
-# 2. import "node_modules/bootstrap/dist/css/bootstrap.css"
+# 2 : in js file
+// import "node_modules/bootstrap/dist/css/bootstrap.css"
  //   import $ from 'jquery'
 //   import popper from 'popper.js'
 //   import bootstrap from 'bootstrap'
